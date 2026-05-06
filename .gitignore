@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Lingkungan Virtual Python
+venv/
+env/
+.env/
+
+# Folder Dataset (Sangat besar, JANGAN di-push ke GitHub!)
+dataset/
+fer2013_enhanced/
+
+# IDE / Editor configuration
+.vscode/
+.idea/
+
+# Folder Model & Hasil (Opsional)
+# Hapus tanda pagar (#) di bawah ini jika kamu TIDAK INGIN upload model/hasil ke GitHub
+models/
+results/
+*.keras
+*.h5
+*.hdf5
